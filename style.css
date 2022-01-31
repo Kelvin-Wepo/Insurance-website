@@ -1,0 +1,22 @@
+.home{
+    display: flex;
+    /* flex-direction: row; */
+
+}
+.member>ul{
+    display: flex;
+    list-style: none;
+}
+.container{
+    background-image: url("https://i.postimg.cc/YqHm5s9h/hero-cover-3.png");
+    
+}
+
+
+
+
+
+
+
+
+
