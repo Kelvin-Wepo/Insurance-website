@@ -118,19 +118,32 @@
     text-align: center;
     margin-top: 15%;
 }
-.images{
-    display: flex;
-   margin-top: 18%;
-   align-items: center;
+.images img{
+   height: 50px;
+   padding: 50px;
+   position: relative;
+   justify-content: space-evenly;
+   top: 200px;
+   left: 150px;
 }
 .images1{
 margin-left: 10%;
 }
-
 .subscribe{
-    border: grey;
     display: flex;
-    margin-top: 20%;
+    justify-content: space-evenly;
+}
+.subscribe h5{
+    text-align: left;
+    color:solid white   
+}
+.subscribe input{
+    height: 20px;
+}
+.subscribe button{
+    background-color: violet;
+    position: relative;
+    right: 200px;
 }
 .pricings{
     display: flex;
@@ -158,16 +171,12 @@ margin-left: 10%;
     text-align: center;
 }
 .branches{
-    justify-content: right;
-    padding-top: 60%;
-    padding-bottom: -20px;
-    margin-top: 00%;
-    margin-left: -50%;
-    height: 100px;
-    
-    
+    justify-content: space-evenly;
+    display:flex;
+    background-color: #252B42;
   
 }
+.write
 .branches1{
     justify-content: right;
     padding-top: 00;
@@ -178,7 +187,7 @@ margin-left: 10%;
     padding-left: 70%;
     width: 80%;
     height: 800%;
-    margin left 60%;
+    margin-left: 60%;
 }
 
 
@@ -211,7 +220,10 @@ background-color:rgba(4, 4, 240, 0.801);
     min-width: 10px;
 }
 .legal{
-    border: solid grey 1px;
+    border: solid grey 4px;
+    align-items: center;
+    justify-content: center;
+    margin: 200%;
 }
 .features{
     border: solid grey 1px;
@@ -224,7 +236,14 @@ background-color:rgba(4, 4, 240, 0.801);
 }
 .About{
     border: solid grey 1px;
-    margin:50% ;
+    margin: 10px;
+    margin-top: 200%;
+    margin-left: 200%;
+}
+.icons{
+    display: flex;
+    width: 15px;
+    height: 15px;
 }
 
 
