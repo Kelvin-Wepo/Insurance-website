@@ -1,21 +1,231 @@
 .home{
     display: flex;
     /* flex-direction: row; */
-
-}
-.member>ul{
-    display: flex;
-    list-style: none;
 }
 .container{
     background-image: url("https://i.postimg.cc/YqHm5s9h/hero-cover-3.png");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+
+}
+.Nav>ul>li>a{
+    display: flex
+
+}
+
+.getmore{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.quote{
+    border: grey solid 1px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    justify-content: center;
+
+}
+ .learn{
+    border: grey solid 1px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
     
+ }
+
+
+ .zote{
+     justify-content: center;
+     display: flex;
+     padding-top: 30px;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+ }
+ .peace1{
+     border: grey solid 1px;
+     width: 220px;
+     height: 150px;background-color: white;
+     
+    
+ }
+ .set1{
+     border: grey solid 1px;
+     width: 220px;
+     height: 150px;
+     background-color: white;
+ }
+
+ .satisfaction{
+     border: grey solid 1px;
+     width: 220px;
+     height: 150px;
+     color: white;
+     background-color: #23A6F0;
+ }
+
+
+ .zote2{
+     justify-content: center;
+     display: flex;
+     flex-wrap: wrap;
+     padding-top: 50px;
+     margin-top: 10%;
+ }
+
+
+.set2 , .peace2 , .satisf{
+
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    margin: 50px;
+    
+
+}
+.indu{
+    text-align: center;
+    margin-top: 10;
+
+
+}
+.slate{
+    border: grey solid 1px;
+    width: 220px;
+    height: 150px;
+}
+.slate{
+    border:solid grey 1px;
+    width: 300px;
+    height: 500px;
+}
+.Slate2{
+    border: solid grey 1px;
+    width: 300px ;
+    height: 500px ;
+}
+.Slate3{
+    border: solid grey 1px;
+    width: 300px;
+    height: 500px;
+}
+.slates{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 15%;
+}
+.images{
+    display: flex;
+   margin-top: 18%;
+   align-items: center;
+}
+.images1{
+margin-left: 10%;
+}
+
+.subscribe{
+    border: grey;
+    display: flex;
+    margin-top: 20%;
+}
+.pricings{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25%;
+    
+}
+.pricing{
+    border: solid grey 1px;
+    width: 200px;
+    height: 500px;
+    text-align: center;
+
+}
+.STANDARD{
+    border: solid grey 1px;
+    width: 200px;
+    height: 500px;
+    text-align: center;
+}
+.PREMIUM{
+    border: solid grey 1px;
+    width: 200px;
+    height: 500px;
+    text-align: center;
+}
+.branches{
+    justify-content: right;
+    padding-top: 60%;
+    padding-bottom: -20px;
+    margin-top: 00%;
+    margin-left: -50%;
+    height: 100px;
+    
+    
+  
+}
+.branches1{
+    justify-content: right;
+    padding-top: 00;
+    margin-top: 00%;
+    margin-left: 00%;
+    align-items: left;
+    background-color: #252B42;;
+    padding-left: 70%;
+    width: 80%;
+    height: 800%;
+    margin left 60%;
 }
 
 
+.world{
+    width: 750px;
+    height: 200px;
+    margin-left: 00;
+    padding-top: 10%;
+    align-content: center;
+    display: inline-flex;
+    justify-content: center;
+}
+.consult{
+margin-top: 200%;
+padding-right: 10%;
 
 
 
+}
+.contact{
+border: solid grey 1px;
+height: min-content;
+margin-top: 200%;
+background-color:rgba(4, 4, 240, 0.801);
+
+}
+.company{
+    border: solid grey 1px;
+    max-width: 20px;
+    min-width: 10px;
+}
+.legal{
+    border: solid grey 1px;
+}
+.features{
+    border: solid grey 1px;
+}
+.Resources{
+    border: solid grey 1px;
+}
+.touch{
+    border: solid grey 1px;
+}
+.About{
+    border: solid grey 1px;
+    margin:50% ;
+}
 
 
 
