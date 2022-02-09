@@ -1,7 +1,21 @@
-.home{
-    display: flex;
-    /* flex-direction: row; */
+
+body{
+    margin: 0;
+    padding: 0;
 }
+
+nav li{
+    display: inline;
+    margin-left: 100px;
+   
+    
+   
+}
+.FirstPart{
+    text-align: center;
+    margin-top: 15%;
+}
+
 .container{
     background-image: url("https://i.postimg.cc/YqHm5s9h/hero-cover-3.png");
     background-size: cover;
@@ -9,9 +23,6 @@
     height: 500px;
     background-repeat: no-repeat;
 
-}
-.Nav>ul>li>a{
-    display: flex
 
 }
 
