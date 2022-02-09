@@ -133,12 +133,23 @@ margin: 5%;
 }
 .pricing , .STANDARD , .PREMIUM{
     border: 1px grey solid;
+    align-items: center;
+    margin-left: 20%;
+    padding: 4px;
 }
 
 .STANDARD{
-    width: 100px;
-    height: 500px;
+    width: 270px;
+    height: 550px;
 }
+
+.subscribe{
+    text-align: center;
+}
+ .branches{
+     display: flex;
+     margin-left: 15%;
+ }
 
 
 /*.slate{
