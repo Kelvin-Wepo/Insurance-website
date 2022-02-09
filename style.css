@@ -20,10 +20,19 @@ nav li{
     background-image: url("https://i.postimg.cc/YqHm5s9h/hero-cover-3.png");
     background-size: cover;
     width: 100%;
-    height: 500px;
+    height: 800px;
     background-repeat: no-repeat;
 
 
+}
+.ensure{
+    margin-top: -350px;
+}
+
+.best{
+    padding-left: 580px;
+    padding-top: 60 px;
+    
 }
 
 .getmore{
@@ -97,13 +106,24 @@ nav li{
     
 
 }
-.indu{
+.ind{
     text-align: center;
     margin-top: 10;
 
 
 }
-.slate{
+
+.slatesimages{
+    display: flex;
+    padding: 20%;
+}
+.slate , .slate2, .slate3{
+    border: 1px grey solid;
+margin: 5%;
+}
+
+
+/*.slate{
     border: grey solid 1px;
     width: 220px;
     height: 150px;
@@ -252,10 +272,10 @@ background-color:rgba(4, 4, 240, 0.801);
     margin-left: 200%;
 }
 .icons{
-    display: flex;
+    display: inline;
     width: 15px;
     height: 15px;
-}
+}*/
 
 
 
