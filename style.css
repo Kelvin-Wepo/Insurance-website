@@ -122,6 +122,24 @@ nav li{
 margin: 5%;
 }
 
+.images{
+    display: flex;
+    padding-left: 20%;
+}
+
+.pricings{
+    display: flex;
+
+}
+.pricing , .STANDARD , .PREMIUM{
+    border: 1px grey solid;
+}
+
+.STANDARD{
+    width: 100px;
+    height: 500px;
+}
+
 
 /*.slate{
     border: grey solid 1px;
